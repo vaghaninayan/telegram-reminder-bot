@@ -9,7 +9,7 @@ import sqlite3
 
 
 import os
-BOT_TOKEN = os.getenv("8513604691:AAGQGDRkFY7wGzShDGnhXeO8alZil_HE4h0")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # ---------------- DATABASE ----------------
 
@@ -133,4 +133,5 @@ print("🤖 Bot is running...")
 schedule_from_db(app.bot)
 
 app.run_polling()
+
 
